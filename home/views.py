@@ -3,7 +3,6 @@ from django.shortcuts import render
 # Create your views here.
 
 from django.http import HttpResponse
-from django.http import HttpResponse
 
 def index(request):
     path=request.path
@@ -14,9 +13,12 @@ def index(request):
         resultstr= '<h1>여기는 main 입니다.</h1>'
     return HttpResponse(resultstr)
 
-def index(request):
+def index01(request):
     result = {'first':'Multi',
               'second':'2Team_project'
               }
     return render(request, 'index.html',context=result)
 
+def index02(request):
+    result = {'first':request.GET['first'],'second':request.GET['second']}
+    return render(request, 'index.html',context=result)
