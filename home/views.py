@@ -5,10 +5,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    path=request.path
-    resultstr=''
-    if path =='/home':
-        resultstr='<h1>여기는 home 입니다.</h1>'
-    else:
-        resultstr= '<h1>여기는 main 입니다.</h1>'
-    return HttpResponse(resultstr)
+    result = {'first':'Multi',
+              'second':'2Team_project'
+              }
+    return render(request, 'index.html',context=result)
+
