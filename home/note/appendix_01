@@ -1,2 +1,10 @@
-참고 URL List
-https://github.com/ginttone/Multi_A_2Team.git
+1. 데이터 크롤링
+ - 네이버영화랭킹 페이지
+    https://movie.naver.com/movie/sdb/rank/rmovie.naver
+ - 영화진흥위원회
+    https://www.kobis.or.kr/kobis/business/mast/mvie/searchMovieList.do
+
+
+2. 데이터 분석
+ - 머신러닝 성능 평가에 활용되는 지표들
+    https://injo.tistory.com/13
