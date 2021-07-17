@@ -1,0 +1,68 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E402" />
+          <option value="E703" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="test03.mypackage" />
+          <option value="test03.reportA" />
+          <option value="test03.reportB" />
+          <option value="frame.insertWeatherSQL.bs4" />
+          <option value="sql.wtsql.make_wtdb" />
+          <option value="sql.wtsql.delete_wtdb" />
+          <option value="sql.wtsql.insert_wtdb" />
+          <option value="sql.wtsql.selectall_wtdb" />
+          <option value="sql.wtsql.select_city" />
+          <option value="sql.wtsql.select_tmn" />
+          <option value="sql.wtsql.select_tmx" />
+
+    <inspection_tool class="PyUnboundLocalVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="test3.reportA" />
+          <option value="test3.reportB" />
+          <option value="test3.mypackage" />
+          <option value="test6.request" />
+          <option value="itemdb.dbName" />
+          <option value="itemdb.Sql" />
+          <option value="itemdb.sql" />
+          <option value="데이터.sqlite3" />
+          <option value="데이터.Sql" />
+          <option value="데이터.dbName" />
+          <option value="itemdb.sqlite3" />
+          <option value="css.views.pwd" />
+          <option value="db.dao.userdb.frame" />
+          <option value="db.dao.userdb.sql" />
+          <option value="db.dao.userdb.vo" />
+          <option value="sql.sql" />
+          <option value="cssws.css.views.UserDB" />
+          <option value="cssws.css.views.ItemDB" />
+          <option value="cssws.css.views.UserVO" />
+          <option value="chart.analysis.data.MyAnalysis.mcnt" />
+          <option value="chart.analysis.data.MyAnalysis.age" />
+          <option value="chart.analysis.data.MyAnalysis.target" />
+          <option value="chart.views.item_logger" />
+          <option value="chart.views.user_logger" />
+          <option value="chart.views.logging" />
+          <option value="datetime.time.time" />
+          <option value="datetime.time.ctime" />
+          <option value="myanalysis.p230.result" />
+          <option value="pan8.df" />
+          <option value="pan12.np" />
+          <option value="연습.df" />
+>>>>>>> origin/master
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
