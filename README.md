@@ -13,18 +13,17 @@ Multi_A_2Team
 # 업무분장<br>
 주창석 : Scrapping<br>
 김수원 : Machine learning<br>
-유설영 : WEB_Server- Backend<br>
-박건욱 : WEB_Server- Front<br>
-김주희 : PM<br>
+유설영 : WEB_Server<br>
+박건욱 : WEB_Server<br>
+김주희 : WEB_Server, PM<br>
 
 # 진행일정
 `7/15~7/16` : 주제선정, 팀명 선정, 역할분담, 환경 맟추기<br>
 `7/16` : 사이트 수집 <br>
-`717~7/18` : Scrapping<br>
-`7/19`: 세미프로젝트 기획안 제출 <br>
+'7/19' : Scrapping- Dermy data(DBsqlite3) <br>
 `7/19~7/21`: Machine learning<br>
 `7/22~7/24`: Web server- Backend<br>
-`7/25~7/27`:Web server- Front<br>
+`7/25~7/27`: Web server- Front<br>
 `7/28`: PPT 만들기<br>
 `7/29`: 프로젝트 발표 <br>
 

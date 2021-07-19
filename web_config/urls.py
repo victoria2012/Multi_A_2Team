@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
 from home import views
+
+from tjuhee import views as tjuheeviews
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +26,8 @@ urlpatterns = [
     path('home',views.index),
     path('index01',views.index01),
     path('index02',views.index02),
+
+    path('tjuhee/test',tjuheeviews.test),
+
 ]
+
