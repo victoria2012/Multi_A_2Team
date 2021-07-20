@@ -28,7 +28,7 @@ Multi_A_2Team
          웹서버 구조 구상
 
 # 데이터 출처<br>
-네이버 영화랭킹
+[네이버 영화](https://movie.naver.com/movie/running/current.naver) 
 
 # 진행일정
 `7/15~7/16` : 주제선정, 팀명 선정, 역할분담, 환경 맟추기<br>
