@@ -11,11 +11,24 @@ Multi_A_2Team
 
 
 # 업무분장<br>
-주창석 : Scrapping<br>
-김수원 : Machine learning<br>
-유설영 : WEB_Server<br>
-박건욱 : WEB_Server<br>
-김주희 : WEB_Server, PM<br>
+* 주창석 : Scrapping<br>
+         더미 데이터 생성완료<br>
+         네이버 평점 스크레핑 진행 중<br>
+* 김수원 : Machine learning<br>
+         정형데이터로 머신러닝 전체적인 윤곽 완성<br>
+         더미 데이터 진행 중<br>
+* 유설영 : WEB_Server<br>
+         브라우저 화면에 쓸 이미지 정리<br>
+         웹서버 구조 구상<br>
+         urls , views, html 생성 <br>
+* 박건욱 : WEB_Server<br>
+         w3.css 부분 구상 중<br>
+* 김주희 : WEB_Server, PM<br>
+         소스공유, 업무 진행상황 확인 및 이슈전달<br>
+         웹서버 구조 구상<br>
+
+# 데이터 출처<br>
+[네이버 영화](https://movie.naver.com/movie/running/current.naver) 
 
 # 진행일정
 `7/15~7/16` : 주제선정, 팀명 선정, 역할분담, 환경 맟추기<br>
