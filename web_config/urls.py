@@ -28,6 +28,7 @@ urlpatterns = [
     path('index02',views.index02),
 
     path('tjuhee/test',tjuheeviews.test),
-
+    path('tjuhee/test01',tjuheeviews.test01),
+    path('tjuhee/test03',tjuheeviews.test03),
 ]
 

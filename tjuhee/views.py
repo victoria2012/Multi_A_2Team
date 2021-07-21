@@ -14,3 +14,14 @@ from django.http import HttpResponse
 def test(request):
     result = {}
     return render(request, 'tjuhee/test.html', context=result)
+
+
+def test01(request):
+    result = {}
+    return render(request, 'tjuhee/test01.html', context=result)
+
+
+def test03(request):
+    result = {}
+    return render(request, 'tjuhee/test03.html', context=result)
+
