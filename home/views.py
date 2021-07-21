@@ -29,3 +29,10 @@ def index01(request):
     first = 'hwasa'
     result = {'mapfolium':mf, 'f01':first}
     return render(request, templates_name='index.html',context=result)
+
+def index01(request):
+    mf = folium.Map([35.3369, 127.7306], zoom_start= 10)
+    mf = mf._repr_html_()
+    first = 'hwasa'
+    result = {'mapfolium':mf, 'f01':first}
+    return render(request, templates_name='index.html',context=result)

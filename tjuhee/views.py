@@ -31,3 +31,6 @@ def test03(request):
 # 맵 보여주기
 import folium
 
+# 맵 보여주기
+import folium
+
