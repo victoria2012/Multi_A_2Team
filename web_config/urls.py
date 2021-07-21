@@ -29,6 +29,6 @@ urlpatterns = [
 
     path('tjuhee/test',tjuheeviews.test),
     path('tjuhee/test01',tjuheeviews.test01),
-    path('tjuhee/moive_link',tjuheeviews.movie_link,name='movie_link'),
+    path('tjuhee/test03',tjuheeviews.test03),
 ]
 
