@@ -29,5 +29,7 @@ urlpatterns = [
 
     path('tjuhee/test',tjuheeviews.test),
 
+    path('tjuhee/test03',tjuheeviews.test03),
+
 ]
 
