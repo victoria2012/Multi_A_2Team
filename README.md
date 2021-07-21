@@ -18,14 +18,15 @@ Multi_A_2Team
          정형데이터로 머신러닝 전체적인 윤곽 완성<br>
          더미 데이터 진행 중<br>
 * 유설영 : WEB_Server<br>
-         브라우저 화면에 쓸 이미지 정리<br>
-         웹서버 구조 구상<br>
-         urls , views, html 생성 <br>
+         웹서버 메인화면 css부분 변경<br>
+         웹서버 벡엔드 test01 생성<br>
 * 박건욱 : WEB_Server<br>
          w3.css 부분 구상 중<br>
+         메인화면에서 about부분 이미지 변경<br>
 * 김주희 : WEB_Server, PM<br>
          소스공유, 업무 진행상황 확인 및 이슈전달<br>
-         웹서버 구조 구상<br>
+         웹서버 구조 구상 및 수정<br>
+         스크레핑 , 머신러닝 진행사항 확인<br>
 
 # 데이터 출처<br>
 [네이버 영화](https://movie.naver.com/movie/running/current.naver) 
@@ -36,7 +37,8 @@ Multi_A_2Team
 '7/19' : Scrapping- Dermy data(DBsqlite3) <br>
 `7/19~7/21`: Machine learning<br>
 `7/22~7/24`: Web server- Backend<br>
-`7/25~7/27`: Web server- Front<br>
+`7/23`: Scrapping, Machine Learning 완료
+`7/25~7/27`: Web server완료<br>
 `7/28`: PPT 만들기<br>
 `7/29`: 프로젝트 발표 <br>
 
