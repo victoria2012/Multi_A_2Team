@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<!DOCTYPE html>
+{% load static %}
 <html>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
@@ -11,11 +10,12 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>test03</b> MOVIES</a>
+    <a href="#home" class="w3-bar-item w3-button"><b>GN</b> projects</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">스크레핑통계</a>
-      <a href="#projects2" class="w3-bar-item w3-button">머신러닝통계</a>
+      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+      <a href="#projects2" class="w3-bar-item w3-button">Projects2</a>
+      <a href="#projects3" class="w3-bar-item w3-button">Projects3</a>
       <a href="#about" class="w3-bar-item w3-button">About</a>
       <a href="#contact" class="w3-bar-item w3-button">Contact</a>
     </div>
@@ -26,7 +26,7 @@
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="/static/img/cloud2.jpg" alt="Architecture" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>test03</b></span> <span class="w3-hide-small w3-text-light-grey">MOVIES</span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>GN</b></span> <span class="w3-hide-small w3-text-light-grey">PROJECTS</span></h1>
   </div>
 </header>
 
@@ -38,66 +38,91 @@
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
   </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 1위</div>
-        <img src="/static/img/1_a.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 2위</div>
-        <img src="/static/img/2_b.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 3위</div>
-        <img src="/static/img/3_c.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 4위</div>
-        <img src="/static/img/4_d.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
+  <form class="w3-container w3-card-4" action="/action_page.php">
+  <h2 class="w3-text-blue">나에게 맞는 영화찾기</h2>
+  <p>Use any of the w3-text-color classes to color your labels.</p>
+  <p>
+  <label class="w3-text-blue"><b>원하는 영화이름</b></label>
+  <input class="w3-input w3-border" name="first" type="text"></p>
+  <p>
+<!--  <label class="w3-text-blue"><b>Last Name</b></label>-->
+<!--  <input class="w3-input w3-border" name="last" type="text"></p>-->
+<!--  <p>      -->
+  <button class="w3-btn w3-blue">검색</button></p>
+</form>
+
+  <!--상영순위 랭킹8-->
+  <div class="w3-container w3-padding-32">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">상영순위 랭킹</h3>
   </div>
+
+<div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹1위</div>
+        <img src="/static/img/1_a.jpg" alt="House" style="width:50%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹2위</div>
+        <img src="/static/img/2_b.jpg" alt="House" style="width:50%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹3위</div>
+        <img src="/static/img/3_c.jpg" alt="House" style="width:50%">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹4위</div>
+        <img src="/static/img/4_d.jpg" alt="House" style="width:50%">
+      </div>
+    </div>
+</div>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 5위</div>
-        <img src="/static/img/5_e.jpg" alt="House" style="width:99%">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹5위</div>
+        <img src="/static/img/5_e.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 6위</div>
-        <img src="/static/img/6_f.jpg" alt="House" style="width:99%">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹6위</div>
+        <img src="/static/img/6_f.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 7위</div>
-        <img src="/static/img/7_g.jpg" alt="House" style="width:99%">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹7위</div>
+        <img src="/static/img/7_g.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹 8위</div>
-        <img src="/static/img/8_h.jpg" alt="House" style="width:99%">
+        <div class="w3-display-topleft w3-black w3-padding">랭킹8위</div>
+        <img src="/static/img/8_h.jpg" alt="House" style="width:50%">
       </div>
     </div>
   </div>
 
-  <!-- Project2 Section -->
+  <!-- Project2 Section 스크레핑 통계 -->
   <div class="w3-container w3-padding-32" id="projects2">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects2</h3>
   </div>
 
-  <!-- About Section -->
+
+
+  <!-- Project3 Section 머신러닝 통계 -->
+  <div class="w3-container w3-padding-32" id="projects3">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects3</h3>
+  </div>
+
+  <!-- About Section 우리 소개 -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
@@ -107,48 +132,50 @@
   </div>
 
   <div class="w3-row-padding w3-grayscale">
-    <div class="w3-panel w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:50%">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
       <h3>주창석</h3>
-      <p class="w3-opacity">스크레핑</p>
-      <p>소개글</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
     </div>
-    <div class="w3-panel w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:50%">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
       <h3>김수원</h3>
-      <p class="w3-opacity">머신러닝</p>
-      <p>소개글</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
     </div>
-    <div class="w3-panel w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:50%">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
       <h3>박건욱</h3>
-      <p class="w3-opacity">웹서버</p>
-      <p>소개글</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
     </div>
-    <div class="w3-panel w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:50%">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
       <h3>유설영</h3>
-      <p class="w3-opacity">웹서버</p>
-      <p>소개글</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
     </div>
-    <div class="w3-panel w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:50%">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
       <h3>김주희</h3>
-      <p class="w3-opacity">피엠</p>
-      <p>소개글</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      <p class="w3-opacity">Architect</p>
+      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+
     </div>
+
   </div>
 
-  <!-- Contact Section -->
+  <!-- Contact Section 여기에 값넣으면 db에 담길 수 있도록 -->
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
     <p>Lets get in touch and talk about your next project.</p>
     <form action="/action_page.php" target="_blank">
+      {% csrf_token %}
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
@@ -168,7 +195,7 @@
 </div>
 
 
-<!-- Footer maps 넣을 부분 -->
+<!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>

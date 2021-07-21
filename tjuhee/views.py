@@ -24,3 +24,7 @@ def test(request):
 def test03(request):
     result = {}
     return render(request, 'tjuhee/test03.html', context=result)
+
+def movie_link(request):
+    result = {'section':'movie_link.html'}
+    return render(request, ' tjuhee/test03.html', context=result)
