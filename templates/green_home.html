@@ -10,14 +10,15 @@
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>GN</b> projects</a>
+    <a href="#home" class="w3-bar-item w3-button"><b>GREEN</b>projects</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">Projects</a>
-      <a href="#projects2" class="w3-bar-item w3-button">Projects2</a>
-      <a href="#projects3" class="w3-bar-item w3-button">Projects3</a>
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      <a href="#projects" class="w3-bar-item w3-button">추천</a>
+      <a href="#projects2" class="w3-bar-item w3-button">스크레핑 통계</a>
+      <a href="#projects3" class="w3-bar-item w3-button">머신러닝 통계</a>
+      <a href="#about" class="w3-bar-item w3-button">팀</a>
+      <a href="#contact" class="w3-bar-item w3-button">연락</a>
+      <a href="#maps" class="w3-bar-item w3-button">지도</a>
     </div>
   </div>
 </div>
@@ -45,106 +46,34 @@
   <label class="w3-text-blue"><b>원하는 영화이름</b></label>
   <input class="w3-input w3-border" name="first" type="text" placeholder="Search.."></p>
   <p>
-  <button class="w3-btn w3-blue"><a href="green.html">검색</a></button></p>
+  <button class="w3-btn w3-blue"><a href="projects.html" target="_blank">검색</a></button></p>
 </form>
-
-
-
-  <!--상영순위 랭킹8 사진 누르면 관련 사진 나오게 함 -->
-  <div class="w3-container w3-padding-32">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">상영순위 랭킹</h3>
-  </div>
-<div class="w3-container">
-  <h2>Tabbed Image Gallery</h2>
-  <p>Click on the images below:</p>
-</div>
-
-<div class="w3-row-padding">
-  <div class="w3-col s3 w3-container">
-  <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
-    <img src="img_nature.jpg" alt="Nature" style="width:100%">
-  </a>
-  </div>
-  <div class="w3-col s3 w3-container">
-    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Snow');">
-      <img src="img_snowtops.jpg" alt="Snow" style="width:100%">
-    </a>
-  </div>
-  <div class="w3-col s3 w3-container">
-    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Mountains');">
-      <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-    </a>
-  </div>
-  <div class="w3-col s3 w3-container">
-    <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Lights');">
-      <img src="img_lights.jpg" alt="Lights" style="width:100%">
-    </a>
-  </div>
-</div><br>
-
-<div id="Nature" class="picture w3-display-container" style="display:none">
-  <img src="/static/img/1_a.jpg" alt="Nature" style="width:100%">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
-  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">랭킹1위</div>
-</div>
-
-<div id="Snow" class="picture w3-display-container" style="display:none">
-  <img src="/static/img/2_b.jpg" alt="Snow" style="width:100%">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
-  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">랭킹2위</div>
-</div>
-
-<div id="Mountains" class="picture w3-display-container" style="display:none">
-  <img src="/static/img/2_b.jpg" alt="Mountains" style="width:100%">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-display-topright w3-button w3-transparent">&times;</span>
-  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Mountains</div>
-</div>
-
-<div id="Lights" class="picture w3-display-container" style="display:none">
-  <img src="/static/img/img_lights_wide.jpg" alt="Lights" style="width:100%">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-display-topright w3-button w3-transparent w3-text-white">&times;</span>
-  <div class="w3-display-bottomleft w3-container w3-padding w3-text-white">Northern Lights</div>
-</div>
-
-<script>
-function openImg(imgName) {
-  var i, x;
-  x = document.getElementsByClassName("picture");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  document.getElementById(imgName).style.display = "block";
-}
-</script>
 
 
   <!-- 실시간 검색순위 8위까지 보여줌 -->
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹1위</div>
+
+        <button class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹1위</a></button>
         <img src="/static/img/1_a.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹2위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹 2위</a></div>
         <img src="/static/img/2_b.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹3위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹3위</a></div>
         <img src="/static/img/3_c.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹4위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹4위</a></div>
         <img src="/static/img/4_d.jpg" alt="House" style="width:50%">
       </div>
     </div>
@@ -153,25 +82,25 @@ function openImg(imgName) {
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹5위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹5위</a></div>
         <img src="/static/img/5_e.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹6위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹6위</a></div>
         <img src="/static/img/6_f.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹7위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹7위</a></div>
         <img src="/static/img/7_g.jpg" alt="House" style="width:50%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">랭킹8위</div>
+        <div class="w3-display-topleft w3-black w3-padding"><a href="projects.html" target="_blank">랭킹8위</a></div>
         <img src="/static/img/8_h.jpg" alt="House" style="width:50%">
       </div>
     </div>
@@ -255,7 +184,7 @@ function openImg(imgName) {
 
 <!-- 멀티캠퍼스 위치 알려주기 -->
 <div class="w3-container">
-  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
+  <img src="/static/img/j.jpg" class="w3-image" style="width:100%">
 </div>
 
 <!-- End page content -->
@@ -264,7 +193,7 @@ function openImg(imgName) {
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>교육처<a href="https://www.multicampus.com/" title="multi" target="_blank" class="w3-hover-text-green">멀티캠퍼스</a></p>
 </footer>
 
 </body>

@@ -22,10 +22,9 @@ from tjuhee import views as tjuheeviews
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.index),
-    path('home',views.index),
-    # path('index01',views.index01),
-    # path('index02',views.index02),
+    path('',views.green_home),
+    path('green_home',views.green_home),
+
 
     path('tjuhee/test',tjuheeviews.test),
     path('tjuhee/test01',tjuheeviews.test01),
