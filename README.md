@@ -12,33 +12,53 @@ Multi_A_2Team
 
 # 업무분장<br>
 * 주창석 : Scrapping<br>
-         더미 데이터 생성완료<br>
-         네이버 평점 스크레핑 진행 중<br>
+         더미 데이터 생성 완료 100%<br>
+         1.네이버 리뷰데이터 스크레핑 진행 중 90% <br>
+         2.네이버 상세정보 스크레핑 진행 중 90% <br>
+         1.2. 데이터 공통 코드로 그룹바이 시작 10% <br>
+         이슈: 두 사람이 하나의 영화 평점 낼 수 있으니 데이터 머지후 다듬기 <br>
+         
 * 김수원 : Machine learning<br>
-         정형데이터로 머신러닝 전체적인 윤곽 완성<br>
-         더미 데이터 진행 중<br>
-* 유설영 : WEB_Server<br>
-         웹서버 메인화면 css부분 변경<br>
-         웹서버 벡엔드 test01 생성<br>
+         api데이터로 정보, 교육단계까지 완료 100% <br>
+         스크레핑 실제 데이터 활용하여 그룹바이 진행 예정 60% <br>
+         서비스 단계 금요일 완료 예정 20% <br>
+         이슈: 두 사람이 하나의 영화 평점 낼 수 있으니 데이터 머지후 다듬기 <br>
+         이슈2: DBbrowser 관리<br> 
+         
+* 유설영 : WEB_Server<br>        
+         서비스페이지 생성(test01에서 작업 중)100%<br>
+          * 메인 화면 70% <br>
+          * 메인 메뉴 70% <br>
+         속성페이지 생성 10%<br>
+          * 검색: 영화 추천 페이지10% <br>
+          * 랭킹: 영화 추천 페이지10% <br>
+         이슈: 페이지 네이션 경로 찾기<br>
+         
 * 박건욱 : WEB_Server<br>
-         w3.css 부분 구상 중<br>
-         메인화면에서 about부분 이미지 변경<br>
+         속성페이지 about 관리<br>
+          * 이미지 수정 80%<br>
+          * 내용 수정 10% <br>
+          * 화면 수정 10% <br>
+         
 * 김주희 : WEB_Server, PM<br>
-         소스공유, 업무 진행상황 확인 및 이슈전달<br>
-         웹서버 구조 구상 및 수정<br>
-         스크레핑 , 머신러닝 진행사항 확인<br>
+         서비스페이지 총괄<br>
+         속성페이지 총괄<br>
+         소스공유, 업무 진행상황 확인 및 이슈전달 100% <br>
+         스크레핑 , 머신러닝 진행사항 80% <br>
 
 # 데이터 출처<br>
-[네이버 영화](https://movie.naver.com/movie/running/current.naver) 
+[네이버 영화](https://movie.naver.com/) 
+영화 랭킹
+평점 리뷰 
 
 # 진행일정
 `7/15~7/16` : 주제선정, 팀명 선정, 역할분담, 환경 맟추기<br>
 `7/16` : 사이트 수집 <br>
 '7/19' : Scrapping- Dermy data(DBsqlite3) <br>
-`7/19~7/21`: Machine learning<br>
-`7/22~7/24`: Web server- Backend<br>
-`7/23`: Scrapping, Machine Learning 완료
-`7/25~7/27`: Web server완료<br>
+`7/23`: Scrapping, Machine Learning 각 통계 예정<br>
+`7/19~7/24`: Machine learning<br>
+`7/19~7/24`: Web server 서비스페이지와 속성페이지 생성 및 연동<br>
+`7/25~7/27`: Web server 서비스페이지, 속성페이지 다듬기<br>
 `7/28`: PPT 만들기<br>
 `7/29`: 프로젝트 발표 <br>
 
