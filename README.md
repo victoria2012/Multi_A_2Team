@@ -45,9 +45,10 @@ Multi_A_2Team
          속성페이지 총괄<br>
          소스공유, 업무 진행상황 확인 및 이슈전달 100% <br>
          스크레핑 , 머신러닝 진행사항 80% <br>
+         [goorm](https://multi-a-team-cddcy.run.goorm.io/)오늘까지 한 것 업로드완료<br>
 
 # 데이터 출처<br>
-[네이버 영화](https://movie.naver.com/) 
+[네이버 영화](https://movie.naver.com/) <br>
 영화 랭킹
 평점 리뷰 
 
