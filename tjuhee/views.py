@@ -28,9 +28,24 @@ def test03(request):
     result = {}
     return render(request, 'tjuhee/test03.html', context=result)
 
-# 맵 보여주기
-import folium
 
-# 맵 보여주기
-import folium
+# def index(request):
+#     path=request.path
+#     resultstr=''
+#     if path =='/home':
+#         resultstr='<h1>여기는 home 입니다.</h1>'
+#     else:
+#         resultstr='<h1>여기는 main 입니다</h1>'
+#
+#     return HttpResponse(resultstr)
+
+# def index01(request):
+#     result = {'first':'Multi',
+#               'second':'2Team_project'
+#               }
+#     return render(request, 'index.html',context=result)
+#
+# def index02(request):
+#     result = {'first':request.GET['first'],'second':request.GET['second']}
+#     return render(request, 'index.html',context=result)
 
