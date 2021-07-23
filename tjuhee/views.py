@@ -28,6 +28,10 @@ def test03(request):
     result = {}
     return render(request, 'tjuhee/test03.html', context=result)
 
+def maps(request):
+    result = {}
+    return render(request, 'maps.html', context=result)
+
 
 # def index(request):
 #     path=request.path

@@ -25,10 +25,12 @@ urlpatterns = [
     path('',views.green_home),
     path('green_home',views.green_home),
     path('projects',views.projects),
+    path('maps',views.maps),
 
     path('tjuhee/test',tjuheeviews.test),
     path('tjuhee/test01',tjuheeviews.test01),
     path('tjuhee/test03',tjuheeviews.test03),
+
 
 ]
 
