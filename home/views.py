@@ -11,6 +11,7 @@ def green_home(request):
 def projects(request):
     result={}
     return render(request, 'projects.html', result)
+
 # request.GET['first']
 def maps(request):
     mf = folium.Map([35.3369, 127.7306], zoom_start= 10)

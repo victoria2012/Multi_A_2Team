@@ -5,6 +5,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -34,91 +41,82 @@
 <!-- Page content-->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- Project Section 영화이름 검색하면 화면에 나오게하기 링크부분하면 됨-->
+  <!-- container-추천-->
   <div class="w3-container w3-padding-32" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">추천</h3>
   </div>
 
-  <div class="w3-panel w3-padding-150 w3-green">
-
-  <form class="w3-container w3-card-4" action="projects">
-  <h2 class="w3-text-white">나에게 맞는 영화찾기</h2>
-  <p>원하는 영화를 검색하시면 꼭 맞는 영화를 추천해드립니다</p>
-  <p>
-  <label class="w3-text-white"><b>영화이름을 입력해주세요</b></label>
-  <input class="w3-input w3-border" name="first" type="text" placeholder="영화이름..."></p>
-  <p>
-  <button class="w3-btn w3-white">검색</button></p>
-</form>
-<!--    답: 검색의 a테그삭제, form 텝 action="projects" name를 where문에 넣기 -->
-
-  </div>
-
-  <!-- 실시간 검색순위 8위까지 보여줌 -->
-    <div class="w3-container w3-padding-32">
-     <p>실시간 검색 순위</p>
-        <p>---------네이버영화 박스오피스 부분처럼 자동으로 나오게---------</p>
+  <div class="w3-panel ">
+    <div class="w3-panel w3-padding-150 w3-green">
+      <form class="w3-container w3-card-4" action="projects">
+      <h2 class="w3-text-white">나에게 맞는 영화찾기</h2>
+      <p>원하는 영화를 검색하시면 꼭 맞는 영화를 추천해드립니다</p>
+      <p>
+      <label class="w3-text-white"><b>영화이름을 입력해주세요</b></label>
+      <input class="w3-input w3-border" name="first" type="text" placeholder="영화이름..."></p>
+      <p>
+      <button class="w3-btn w3-white">검색</button></p>
+      </form>
+    </div>
     </div>
 
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-
-        <button class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹1위</a></button>
-        <img src="/static/img/1_a.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹 2위</a></div>
-        <img src="/static/img/2_b.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹3위</a></div>
-        <img src="/static/img/3_c.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹4위</a></div>
-        <img src="/static/img/4_d.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-</div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹5위</a></div>
-        <img src="/static/img/5_e.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹6위</a></div>
-        <img src="/static/img/6_f.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹7위</a></div>
-        <img src="/static/img/7_g.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><a href="projects" target="_blank">랭킹8위</a></div>
-        <img src="/static/img/8_h.jpg" alt="House" style="width:50%">
-      </div>
-    </div>
+  <!-- container-실시간-->
+  <div class="w3-container">
+    <h2>2021년7월 셋째주 박스오피스</h2>
   </div>
 
 
+  <div class="w3-panel w3-content w3-container w3-display-container w3-padding-100 " style="max-width:800px">
 
-  <!-- Project2 Section 스크레핑 통계 -->
+    <img class="mySlides" src="/static/img/1_a.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/2_b.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/3_c.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/4_d.jpg" style="width:100%">
+
+    <!--실시간 영화 다음 , 이전 버튼 , 페이지 연결-->
+    <div class="w3-center w3-container w3-display-middle w3-section w3-large w3-text-white " style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    </div>
+
+  </div>
+
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " w3-white";
+  }
+  </script>
+
+
+  <!-- container-스크레핑 통계(projects2) -->
   <div class="w3-container w3-padding-32" id="projects2">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">스크레핑통계</h3>
       <p>스크레핑 통계 그래프 </p>
@@ -126,21 +124,21 @@
   </div>
 
 
-  <!-- Project3 Section 머신러닝 통계 -->
+  <!-- container-머신러닝 통계(projects3) -->
   <div class="w3-container w3-padding-32" id="projects3">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">머신러닝통계</h3>
       <p>머신러닝 통계 그래프 </p>
       <p>-----------------하이차트 활용 예정--------------------</p>
   </div>
 
-  <!-- About Section 우리 소개 -->
+  <!-- container-팀 소개 -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">팀</h3>
       <p>팀 정보</p>
       <p>------------박건욱님 만드는 중-----------------</p>
   </div>
 
-  <!-- Contact Section 여기에 값넣으면 db에 담길 수 있도록 -->
+  <!-- container-우리에게 문의하기: db에 담기게 연동 -->
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">연락</h3>
     <p>연락하면 우리가 받을수 있게 </p>
@@ -157,20 +155,23 @@
     </form>
   </div>
 
-<!-- 멀티캠퍼스 위치 알려주기 -->
-<div class="w3-container">
-  <img src="/static/img/gword.jpg" class="w3-image" style="width:10%">
-    <p>맵 뿌리기</p>>
-</div>
+  <!-- container-멀티캠퍼스 위치 -->
+  <div class="w3-container">
+    <img src="/static/img/gword.jpg" class="w3-image" style="width:10%">
+      <p>맵 뿌리기</p>>
+  </div>
 
 <!-- End page content -->
-</div>
+</>
 
 
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
+<!-- container-제공 -->
+<footer class="w3-center w3-black w3-padding-small">
   <p>교육처<a href="https://www.multicampus.com/" title="multi" target="_blank" class="w3-hover-text-green">멀티캠퍼스</a></p>
 </footer>
+
+
+
 
 </body>
 </html>
