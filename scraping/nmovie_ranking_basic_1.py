@@ -2,12 +2,12 @@ import requests
 import sqlite3
 from bs4 import BeautifulSoup
 
-path = 'https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=cnt&date=20210721'
+path = 'https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=cnt&tg=0&date=20210722'
 req = requests.get(path)
 req.status_code
 soup = BeautifulSoup(req.content, 'html.parser')
 
-connect = sqlite3.connect('db.sqlite3')
+connect = sqlite3.connect('../db.sqlite3')
 cursor = connect.cursor()
 
 ranks = soup.select('img[width="14"]')
@@ -33,7 +33,7 @@ for index, row in pd_data.iterrows():
     ranking = row[0]
     title = row[1]
     try:
-        cursor.execute("insert into dbapp_movieranking(ranking, title) values(?, ?)", (ranking, title))
+        cursor.execute("insert into polls_movieranking(ranking, title) values(?, ?)", (ranking, title))
         print(ranking, ' : ', title)
     except:
         pass
