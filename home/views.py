@@ -9,13 +9,38 @@ def green_home(request):
     return render(request, 'green_home.html', context=result)
 
 def projects(request):
-    result={}
+    result = dict()
+    conn = sqlite3.connect('db.sqlite3')
+    conn.row_factory = sqlite3.Row  # 컬럼 사용하게해줘
+    curs = conn.cursor()
+
+    # economics
+    curs.execute('select * from main.polls_moviereview where id=')
+    data = curs.fetchall()
+    for row in data:
+        print(row['title'], ':', row['code'])
+    result['rows'] = data
     return render(request, 'projects.html', result)
 
+def machine(request):
+    context={
+        'section':'machine.html'
+    }
+    return render(request, 'green_home.html', context)
+ # result = {'title':request.GET['title'],
+    #           'code':request.GET['code'],
+    #           'genre':request.GET['genre'],
+    #           'nation':request.GET['nation'],
+    #           'director':request.GET['director'],
+    #           'actor': request.GET['actor']
+    #           }
+
 # request.GET['first']
-def maps(request):
-    mf = folium.Map([35.3369, 127.7306], zoom_start= 10)
-    mf = mf._repr_html_()
-    first = 'hwasa'
-    result = {'mapfolium':mf, 'f01':first}
-    return render(request, templates_name='maps.html',context=result)
+
+def scrapping(request):
+    result = {}
+    return render(request, 'scrapping.html', context=result)
+
+def machine(request):
+    result = {}
+    return render(request, 'machine.html', context=result)

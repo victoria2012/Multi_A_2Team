@@ -14,164 +14,233 @@
 
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>GREEN</b>projects</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button">추천</a>
-      <a href="#projects2" class="w3-bar-item w3-button">스크레핑 통계</a>
-      <a href="#projects3" class="w3-bar-item w3-button">머신러닝 통계</a>
-      <a href="#about" class="w3-bar-item w3-button">팀</a>
-      <a href="#contact" class="w3-bar-item w3-button">연락</a>
-      <a href="#maps" class="w3-bar-item w3-button">지도</a>
+    <!-- 상단 네비게이션 바 각 페이지 연결 -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class="w3-bar-item w3-button"><b>GREEN</b>projects</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button">Home</a>
+          <a href="#Matching movies" class="w3-bar-item w3-button">Matching movies</a>
+          <a href="#Scrapping" class="w3-bar-item w3-button">Scrapping</a>
+          <a href="#Machine-learning" class="w3-bar-item w3-button">Machine-learning</a>
+
+          <a href="#Team" class="w3-bar-item w3-button">Team</a>
+          <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/static/img/green.jpg" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>GN</b></span> <span class="w3-hide-small w3-text-light-grey">PROJECTS</span></h1>
-  </div>
-</header>
+    <!-- home 페이지 메인 부분 -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1800px;" id="home">
+    <img class="w3-image" src="/static/img/green3.jpg" alt="Architecture"  width="100%">
+      <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white">
+          <span class="w3-padding w3-black w3-opacity-min"><b>GREEN</b></span>
+          <span class="w3-hide-small w3-text-light-grey">PROJECTS</span>
+        </h1>
+      </div>
+  </header>
 
-<!-- Page content-->
-<div class="w3-content w3-padding" style="max-width:1564px">
 
-  <!-- container-추천-->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">추천</h3>
-  </div>
+  <!-- projects 추천부분 -->
+  <div class="w3-content w3-padding" style="max-width:1564px; text-align:center;">
+    <div class="w3-container w3-padding-32" id="Matching movies">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Matching movies</h3>
+    </div>
 
-  <div class="w3-panel ">
-    <div class="w3-panel w3-padding-150 w3-green">
-      <form class="w3-container w3-card-4" action="projects">
-      <h2 class="w3-text-white">나에게 맞는 영화찾기</h2>
-      <p>원하는 영화를 검색하시면 꼭 맞는 영화를 추천해드립니다</p>
-      <p>
-      <label class="w3-text-white"><b>영화이름을 입력해주세요</b></label>
-      <input class="w3-input w3-border" name="first" type="text" placeholder="영화이름..."></p>
-      <p>
-      <button class="w3-btn w3-white">검색</button></p>
+    <div class="content-resizer">
+      <form class="w3-container" action="projects">
+        <h2  class="w3-text-green" style="text-align:center;">나에게 맞는 영화찾기</h2>
+        <p>원하는 영화를 검색하시면 꼭 맞는 영화를 추천해드립니다</p>
+        <p>
+          <label class="w3-text-green"><b>영화이름을 입력해주세요</b></label>
+          <input class="w3-input w3-border" name="first" type="text" placeholder="영화이름..." style="text-align:center; margin: auto; width: 600px;">
+        </p>
+        <p><button class="w3-btn w3-green">검색</button></p>
       </form>
     </div>
-    </div>
 
-  <!-- container-실시간-->
-  <div class="w3-container">
-    <h2>2021년7월 셋째주 박스오피스</h2>
-  </div>
+    <div id="size" class="w3-container">
+      <h2 >2021년7월 셋째주 박스오피스</h2>
+    <div class="w3-panel w3-content w3-container w3-display-container w3-padding-100 " style="max-width:400px">
 
-
-  <div class="w3-panel w3-content w3-container w3-display-container w3-padding-100 " style="max-width:800px">
-
+    <!--1 사진은 누르면 관련 부분으로 넘어가게 만들기 2 한면에 8개정도 나오게 3 사진부분을 위치로 지정해서 랜덤하게 받기-->
     <img class="mySlides" src="/static/img/1_a.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/2_b.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/3_c.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/4_d.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/5_e.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/6_f.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/7_g.jpg" style="width:100%">
+    <img class="mySlides" src="/static/img/8_h.jpg" style="width:100%">
 
     <!--실시간 영화 다음 , 이전 버튼 , 페이지 연결-->
-    <div class="w3-center w3-container w3-display-middle w3-section w3-large w3-text-white " style="width:100%">
+    <div class="w3-center w3-left w3-display-middle w3-section w3-large w3-text-red " style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
     </div>
 
-  </div>
+      </div>
 
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
 
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
 
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
-  }
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
 
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " w3-white";
+      }
+      </script>
+      </div>
 
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" w3-white", "");
-    }
-    x[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " w3-white";
-  }
-  </script>
+  <hr class="divider">
+  <!-- projects2 스크레핑 통계 -->
+  <section id="Scrapping" style="text-align:center;">
+      <div class="w3-container w3-padding-32" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Scrapping</h3>
+      </div>
 
+    <form class="w3-container" action="scrapping">
+        <p><button class="w3-btn w3-green">Scrapping</button></p>
+    </form>
+  </section>
 
-  <!-- container-스크레핑 통계(projects2) -->
-  <div class="w3-container w3-padding-32" id="projects2">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">스크레핑통계</h3>
-      <p>스크레핑 통계 그래프 </p>
-      <p>-----------------하이차트 활용 예정--------------------</p>
-  </div>
+  <hr class="divider">
+  <!-- projects3 머신러닝 통계-->
+  <section id="Machine-learning" style="text-align:center;">
+      <div class="w3-container w3-padding-32" >
+          <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Machine-learning</h3>
+      </div>
+      <form class="w3-container" action="machine">
+      <p><button class="w3-btn w3-green">machine</button></p>
+      </form>
+  </section>
 
+  <hr class="divider">
+  <!-- about-팀 소개 -->
 
-  <!-- container-머신러닝 통계(projects3) -->
-  <div class="w3-container w3-padding-32" id="projects3">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">머신러닝통계</h3>
-      <p>머신러닝 통계 그래프 </p>
-      <p>-----------------하이차트 활용 예정--------------------</p>
-  </div>
+   <section id="Team" style="text-align:center;">
+    <div class="w3-container w3-padding-32" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Team</h3>
+      </div>
+   </section>
 
-  <!-- container-팀 소개 -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">팀</h3>
-      <p>팀 정보</p>
-      <p>------------박건욱님 만드는 중-----------------</p>
-  </div>
+   <div class="w3-row-padding " >
 
-  <!-- container-우리에게 문의하기: db에 담기게 연동 -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">연락</h3>
-    <p>연락하면 우리가 받을수 있게 </p>
-    <form action="/action_page.php" target="_blank">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <a><img src="/static/img/주창석.jpg" alt="주창석" style="width:50%"></a>
+        <div class="w3-display-middle w3-display-hover">
+          <button class="w3-button w3-black">주창석</button>
+          </div>
+        <h3>Changsuk Joo</h3>
+        <p class="w3-opacity">the Department of Czech language &#127757;</p>
+        <p class="w3-opacity">Taurus &#128003;</p>
+        <p>Scrapping &#128187;</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/static/img/김수원.jpg" alt="Jane" style="width:50%">
+          <div class="w3-display-middle w3-display-hover">
+          <button class="w3-button w3-black">김수원</button>
+          </div>
+        <h3>Suwon Kim</h3>
+        <p class="w3-opacity">the Department of Business Administration &#127970;</p>
+        <p class="w3-opacity">Cancer &#129408;</p>
+        <p>Machine Learning and Data Analysis Operations &#128187;</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/static/img/박건욱.jpg" alt="Mike" style="width:50%">
+          <div class="w3-display-middle w3-display-hover">
+          <button class="w3-button w3-black">박건욱</button>
+          </div>
+        <h3>Gunuk Park</h3>
+        <p class="w3-opacity">Electronics and Aeronautics &#127981;</p>
+        <p class="w3-opacity">Capricorn &#128016;</p>
+        <p>HTML Operations &#128187;</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/static/img/유설영.jpg" alt="Mike" style="width:50%">
+          <div class="w3-display-middle w3-display-hover">
+          <button class="w3-button w3-black">유설영</button>
+          </div>
+        <h3>Sulyoung Yoo</h3>
+        <p class="w3-opacity">Tourism Management &#128506;</p>
+        <p class="w3-opacity">Aquarius &#127862;</p>
+        <p>HTML Operations &#128187;</p>
+      </div>
+
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/static/img/김주희.jpg" alt="JuheeKim" style="width:50%" class="w3-hover-opacity">
+        <h3>Juhee Kim</h3>
+        <p class="w3-opacity">the Department of Air trevel & tourism &#9992;</p>
+        <p class="w3-opacity">Aries &#128017;</p>
+        <p>Web-server & PM &#128187;</p>
+      </div>
+
+    </div>
+
+  <hr class="divider">
+  <!-- contact 코멘트 우리에게 보내게:db에 기록-->
+
+  <section id="Contact" class="fullscreen" style="background: #fbfbfb; height:600px; padding-top:60px; text-align:center;">
+    <div class="w3-container w3-padding-32" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    </div>
+
+    <div class="w3-container">
+      <p>연락하면 우리 디비에 받을수 있게 </p>
+    <form action="contact" target="_blank">
       {% csrf_token %}
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-green w3-section" type="submit">
-        <i class="fa fa-paper-plane"><a href="axlovexa@nate.com"></a></i> SEND MESSAGE
-
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" style="text-align:center; margin: auto; width: 600px;">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email" style="text-align:center; margin: auto; width: 600px;">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject" style="text-align:center; margin: auto; width: 600px;">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment" style="text-align:center; margin: auto; width: 600px;">
+      <button class="w3-button w3-section w3-green " type="submit" style="text-align:center; margin: auto; width: 600px;">
+        <i class="fa fa-paper-plane"><a href="to-db"></a></i> SEND MESSAGE
       </button>
     </form>
-  </div>
-
-  <!-- container-멀티캠퍼스 위치 -->
-  <div class="w3-container">
-    <img src="/static/img/gword.jpg" class="w3-image" style="width:10%">
-      <p>맵 뿌리기</p>>
-  </div>
-
-<!-- End page content -->
-</>
+    </div>
+  </section>
 
 
-<!-- container-제공 -->
-<footer class="w3-center w3-black w3-padding-small">
-  <p>교육처<a href="https://www.multicampus.com/" title="multi" target="_blank" class="w3-hover-text-green">멀티캠퍼스</a></p>
-</footer>
-
-
-
-
+  <!-- 맨 및에 -->
+  <section class="fullscreen" style="background-color: rgb(51, 51, 51); color: rgb(238, 238, 238); text-align: center; margin-top: -40px; height: 100px;">
+      <div class="container">
+        <div class="content-resizer" style="margin-top: -40px; top: 306.5px;">
+        <a href="https://www.multicampus.com/" title="multi" target="_blank" class="w3-hover-text-green">
+            <img src="/static/img/multi.jpg" style="color: inherit;padding:14px 22px;"></a>
+        </div>
+      </div>
+  </section>
 </body>
 </html>

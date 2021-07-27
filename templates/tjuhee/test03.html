@@ -5,39 +5,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <style>
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
-#size{text-align:center;}
-#size1{text-align:center;}
-#size2{text-align:center;}
-#size3{text-align:center;}
-#size4{text-align:center;}
-#size5{text-align:center;}
-
 </style>
 
 <body>
 
-<!-- 상단 네비게이션 바  -->
-<header class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>GREEN</b>projects</a>
-    <!-- Float links to the right. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#home" class="w3-bar-item w3-button">홈</a>
-      <a href="#projects" class="w3-bar-item w3-button">추천</a>
-      <a href="#projects2" class="w3-bar-item w3-button">스크레핑 통계</a>
-      <a href="#projects3" class="w3-bar-item w3-button">머신러닝 통계</a>
-      <a href="#about" class="w3-bar-item w3-button">팀</a>
-      <a href="#contact" class="w3-bar-item w3-button">연락</a>
+    <!-- 상단 네비게이션 바 각 페이지 연결 -->
+    <div class="w3-top">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="#home" class="w3-bar-item w3-button"><b>GREEN</b>projects</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button">Home</a>
+          <a href="#Matching movies" class="w3-bar-item w3-button">Matching movies</a>
+          <a href="#Scrapping" class="w3-bar-item w3-button">Scrapping</a>
+          <a href="#Machine-learning" class="w3-bar-item w3-button">Machine-learning</a>
+          <a href="#Team" class="w3-bar-item w3-button">Team</a>
+          <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
+        </div>
+      </div>
     </div>
-  </div>
-</header>
 
-  <!-- home 페이지 메인 부분 -->
-  <section class="header container fullscreen" style="height: 902px;" id="home">
+    <!-- home 페이지 메인 부분 -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1800px;" id="home">
     <img class="w3-image" src="/static/img/green3.jpg" alt="Architecture"  width="100%">
       <div class="w3-display-middle w3-margin-top w3-center">
         <h1 class="w3-xxlarge w3-text-white">
@@ -45,12 +39,16 @@
           <span class="w3-hide-small w3-text-light-grey">PROJECTS</span>
         </h1>
       </div>
-  </section>
+  </header>
 
 
   <!-- projects 추천부분 -->
-   <section id="projects">
-    <div id="size1" class="content-resizer" style="top: 600px;">
+  <div class="w3-content w3-padding" style="max-width:1564px; text-align:center;">
+    <div class="w3-container w3-padding-32" id="Matching movies">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Matching movies</h3>
+    </div>
+
+    <div class="content-resizer">
       <form class="w3-container" action="projects">
         <h2  class="w3-text-green" style="text-align:center;">나에게 맞는 영화찾기</h2>
         <p>원하는 영화를 검색하시면 꼭 맞는 영화를 추천해드립니다</p>
@@ -61,21 +59,20 @@
         <p><button class="w3-btn w3-green">검색</button></p>
       </form>
     </div>
-  </section>
 
-
-  <!-- 실시간랭킹 부분-->
     <div id="size" class="w3-container">
       <h2 >2021년7월 셋째주 박스오피스</h2>
-
-
     <div class="w3-panel w3-content w3-container w3-display-container w3-padding-100 " style="max-width:400px">
 
-  <!--1 사진은 누르면 관련 부분으로 넘어가게 만들기 2 한면에 8개정도 나오게 3 사진부분을 위치로 지정해서 랜덤하게 받기-->
+    <!--1 사진은 누르면 관련 부분으로 넘어가게 만들기 2 한면에 8개정도 나오게 3 사진부분을 위치로 지정해서 랜덤하게 받기-->
     <a href="maps" target="_blank"><img class="mySlides" src="/static/img/1_a.jpg" style="width:100%"></a>
     <a href="maps" target="_blank"><img class="mySlides" src="/static/img/2_b.jpg" style="width:100%"></a>
     <a href="maps" target="_blank"><img class="mySlides" src="/static/img/3_c.jpg" style="width:100%"></a>
     <a href="maps" target="_blank"><img class="mySlides" src="/static/img/4_d.jpg" style="width:100%"></a>
+    <a href="maps" target="_blank"><img class="mySlides" src="/static/img/5_e.jpg" style="width:100%"></a>
+    <a href="maps" target="_blank"><img class="mySlides" src="/static/img/6_f.jpg" style="width:100%"></a>
+    <a href="maps" target="_blank"><img class="mySlides" src="/static/img/7_g.jpg" style="width:100%"></a>
+    <a href="maps" target="_blank"><img class="mySlides" src="/static/img/8_h.jpg" style="width:100%"></a>
 
     <!--실시간 영화 다음 , 이전 버튼 , 페이지 연결-->
     <div class="w3-center w3-left w3-display-middle w3-section w3-large w3-text-red " style="width:100%">
@@ -85,86 +82,91 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
     </div>
 
-  </div>
+      </div>
 
 
-<!--    <img class="mySlides" src="/static/img/5_e.jpg" style="width:100%">-->
-<!--    <img class="mySlides" src="/static/img/6_f.jpg" style="width:100%">-->
-<!--    <img class="mySlides" src="/static/img/7_g.jpg" style="width:100%">-->
-<!--    <img class="mySlides" src="/static/img/8_h.jpg" style="width:100%">-->
 
-    <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
 
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
+        <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
 
-    function currentDiv(n) {
-      showDivs(slideIndex = n);
-    }
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
 
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" w3-white", "");
-      }
-      x[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " w3-white";
-    }
-    </script>
-  </div>
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-white", "");
+          }
+          x[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " w3-white";
+        }
+        </script>
+      </div>
 
   <hr class="divider">
   <!-- projects2 스크레핑 통계 -->
-  <section id="projects2">
-    <div id="size2" class="w3-container">
-     <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">스크레핑통계</h2>
-      <p>스크레핑 통계 그래프 </p>
-      <p>-----------------하이차트 활용 예정--------------------</p>
-    </div>
+  <section id="Scrapping" style="text-align:center;">
+      <div class="w3-container w3-padding-32" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Scrapping</h3>
+      </div>
+
+    <form class="w3-container" action="scrapping">
+        <p><button class="w3-btn w3-green">통계</button></p>
+    </form>
   </section>
 
   <hr class="divider">
   <!-- projects3 머신러닝 통계-->
-  <section id="projects3">
-    <div id="size3" class="w3-container">
-      <h2  class="w3-border-bottom w3-border-light-grey w3-padding-16">머신러닝통계</h2>
-      <p>머신러닝 통계 그래프 </p>
-      <p>-----------------하이차트 활용 예정--------------------</p>
-    </div>
+  <section id="Machine-learning" style="text-align:center;">
+        <div class="w3-container w3-padding-32" >
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Machine-learning</h3>
+        </div>
+    <form class="w3-container" action="machine">
+
+    </form>
   </section>
 
   <hr class="divider">
   <!-- about-팀 소개 -->
 
-   <section id="about">
-    <div id="size4" class="w3-container">
-      <h2 class="w3-border-bottom w3-border-light-grey w3-padding-16">팀</h2>
-      <p>팀 정보</p>
-      <p>------------박건욱님 만드는 중-----------------</p>
-    </div>
+   <section id="Team" style="text-align:center;">
+    <div class="w3-container w3-padding-32" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Team</h3>
+      </div>
    </section>
-
+   </div>
 
   <hr class="divider">
   <!-- contact 코멘트 우리에게 보내게:db에 기록-->
 
-  <section id="contact" class="fullscreen" style="background: #fbfbfb; height:600px; padding-top:60px;">
-    <div id="size5" class="w3-container">
-      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">연락</h3>
+  <section id="Contact" class="fullscreen" style="background: #fbfbfb; height:600px; padding-top:60px; text-align:center;">
+    <div class="w3-container w3-padding-32" >
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    </div>
+
+    <div class="w3-container">
       <p>연락하면 우리 디비에 받을수 있게 </p>
-    <form action="/action_page.php" target="_blank">
+    <form action="contact" target="_blank">
       {% csrf_token %}
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" style="text-align:center; margin: auto; width: 600px;">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email" style="text-align:center; margin: auto; width: 600px;">
@@ -173,14 +175,11 @@
       <button class="w3-button w3-section w3-green " type="submit" style="text-align:center; margin: auto; width: 600px;">
         <i class="fa fa-paper-plane"><a href="to-db"></a></i> SEND MESSAGE
       </button>
-
     </form>
     </div>
   </section>
 
-  <!-- 지도 위치 -->
 
-  <hr class="divider">
   <!-- 맨 및에 -->
   <section class="fullscreen" style="background-color: rgb(51, 51, 51); color: rgb(238, 238, 238); text-align: center; margin-top: -40px; height: 100px;">
       <div class="container">

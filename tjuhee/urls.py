@@ -25,8 +25,8 @@ urlpatterns = [
     path('',views.green_home),
     path('green_home',views.green_home),
     path('projects',views.projects),
-    path('scrapping',views.scrapping),
-    path('machine',views.machine), 
+    path('scrapping',views.scrapping,name='scrapping'),
+    path('machine',views.machine,name='machine'),
 
     path('tjuhee/test',tjuheeviews.test),
     path('tjuhee/test01',tjuheeviews.test01),
