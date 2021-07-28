@@ -20,7 +20,6 @@ def projects(request):
 
 def scrapping(request):
     result = {}
-
     return render(request, 'scrapping.html', context=result)
 
 def machine(request):
