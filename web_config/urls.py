@@ -28,9 +28,9 @@ urlpatterns = [
     path('scrapping',views.scrapping),
     path('machine',views.machine), 
 
+
     path('tjuhee/test',tjuheeviews.test),
     path('tjuhee/test01',tjuheeviews.test01),
-    path('tjuhee/test03',tjuheeviews.test03),
 
 
 ]

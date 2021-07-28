@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 {% load static %}
 <html>
-<title>GREEN home</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>GREEN home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
+    <style>
+    .mySlides {display:none}
+    .w3-left, .w3-right, .w3-badge {cursor:pointer}
+    .w3-badge {height:13px;width:13px;padding:0}
+    </style>
 
 <body>
 
@@ -133,7 +133,7 @@
     </form>
   </section>
 
-  <hr class="divider">
+
   <!-- projects3 머신러닝 통계-->
   <section id="Machine-learning" style="text-align:center;">
       <div class="w3-container w3-padding-32" >
@@ -144,9 +144,9 @@
       </form>
   </section>
 
-  <hr class="divider">
-  <!-- about-팀 소개 -->
 
+
+  <!-- about-팀 소개 -->
    <section id="Team" style="text-align:center;">
     <div class="w3-container w3-padding-32" >
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Team</h3>
@@ -155,7 +155,7 @@
 
    <div class="w3-row-padding " >
 
-      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-third l3 m6 w3-margin-bottom">
         <a><img src="/static/img/주창석.jpg" alt="주창석" style="width:50%"></a>
         <div class="w3-display-middle w3-display-hover">
           <button class="w3-button w3-black">주창석</button>
@@ -166,7 +166,7 @@
         <p>Scrapping &#128187;</p>
       </div>
 
-      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-third l3 m6 w3-margin-bottom">
         <img src="/static/img/김수원.jpg" alt="Jane" style="width:50%">
           <div class="w3-display-middle w3-display-hover">
           <button class="w3-button w3-black">김수원</button>
@@ -177,7 +177,7 @@
         <p>Machine Learning and Data Analysis Operations &#128187;</p>
       </div>
 
-      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-third l3 m6 w3-margin-bottom">
         <img src="/static/img/박건욱.jpg" alt="Mike" style="width:50%">
           <div class="w3-display-middle w3-display-hover">
           <button class="w3-button w3-black">박건욱</button>
@@ -188,7 +188,7 @@
         <p>HTML Operations &#128187;</p>
       </div>
 
-      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-third l3 m6 w3-margin-bottom">
         <img src="/static/img/유설영.jpg" alt="Mike" style="width:50%">
           <div class="w3-display-middle w3-display-hover">
           <button class="w3-button w3-black">유설영</button>
@@ -199,7 +199,7 @@
         <p>HTML Operations &#128187;</p>
       </div>
 
-      <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-third l3 m6 w3-margin-bottom">
         <img src="/static/img/김주희.jpg" alt="JuheeKim" style="width:50%" class="w3-hover-opacity">
         <h3>Juhee Kim</h3>
         <p class="w3-opacity">the Department of Air trevel & tourism &#9992;</p>
@@ -212,25 +212,25 @@
   <hr class="divider">
   <!-- contact 코멘트 우리에게 보내게:db에 기록-->
 
-  <section id="Contact" class="fullscreen" style="background: #fbfbfb; height:600px; padding-top:60px; text-align:center;">
-    <div class="w3-container w3-padding-32" >
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    </div>
+<!--  <section id="Contact" class="fullscreen" style="background: #fbfbfb; height:600px; padding-top:60px; text-align:center;">-->
+<!--    <div class="w3-container w3-padding-32" >-->
+<!--        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>-->
+<!--    </div>-->
 
-    <div class="w3-container">
-      <p>연락하면 우리 디비에 받을수 있게 </p>
-    <form action="contact" target="_blank">
-      {% csrf_token %}
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" style="text-align:center; margin: auto; width: 600px;">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email" style="text-align:center; margin: auto; width: 600px;">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject" style="text-align:center; margin: auto; width: 600px;">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment" style="text-align:center; margin: auto; width: 600px;">
-      <button class="w3-button w3-section w3-green " type="submit" style="text-align:center; margin: auto; width: 600px;">
-        <i class="fa fa-paper-plane"><a href="to-db"></a></i> SEND MESSAGE
-      </button>
-    </form>
-    </div>
-  </section>
+<!--    <div class="w3-container">-->
+<!--      <p>문의사항은 이쪽으로 보내주세요 </p>-->
+<!--    <form action="contact" target="_blank">-->
+<!--      {% csrf_token %}-->
+<!--      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" style="text-align:center; margin: auto; width: 600px;">-->
+<!--      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email" style="text-align:center; margin: auto; width: 600px;">-->
+<!--      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject" style="text-align:center; margin: auto; width: 600px;">-->
+<!--      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment" style="text-align:center; margin: auto; width: 600px;">-->
+<!--      <button class="w3-button w3-section w3-green " type="submit" style="text-align:center; margin: auto; width: 600px;">-->
+<!--        <i class="fa fa-paper-plane"><a href="to-db"></a></i> SEND MESSAGE-->
+<!--      </button>-->
+<!--    </form>-->
+<!--    </div>-->
+<!--  </section>-->
 
 
   <!-- 맨 및에 -->
