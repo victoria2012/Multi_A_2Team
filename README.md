@@ -51,14 +51,11 @@ Multi_A_2Team
 영화 랭킹
 평점 리뷰 
 
-# 진행일정
-`7/15~7/16` : 주제선정, 팀명 선정, 역할분담, 환경 맟추기<br>
-`7/16` : 사이트 수집 <br>
-'7/19' : Scrapping- Dermy data(DBsqlite3) <br>
-`7/23`: Scrapping, Machine Learning 각 통계 예정<br>
-`7/19~7/24`: Machine learning<br>
-`7/19~7/24`: Web server 서비스페이지와 속성페이지 생성 및 연동<br>
-`7/25~7/27`: Web server 서비스페이지와 속성페이지 생성 및 연동<br>
-`7/28`: PPT 만들기<br>
-`7/29`: 프로젝트 발표 <br>
+# 진행일정<br>
+ 7/15~7/16  : 주제선정, 팀명 선정, 역할분담, 환경 맟추기 <br>
+ 7/16 : 사이트 수집, 샘플링<br>
+ 7/19 : Scrapping- Dermy data (DBsqlite3) <br>
+ 7/23 : Scrapping, Machine Learning 데이터 수집<br>
+ 7/19~7/26 : Scrapping, Machine learning각 통계<br>
+ 7/25~7/27 : Web server 서비스페이지와 속성페이지 생성 및 연동 7/28 : PPT 만들기 7/29 : 프로젝트 발표<br>
 
