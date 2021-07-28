@@ -29,7 +29,7 @@ urlpatterns = [
     path('machine',views.machine), 
 
 
-    path('tjuhee/test',tjuheeviews.test),
+
     path('tjuhee/test01',tjuheeviews.test01),
 
 

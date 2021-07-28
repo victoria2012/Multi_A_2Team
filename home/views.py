@@ -11,8 +11,9 @@ def green_home(request):
 
 def projects(request):
     df=pd.read_csv('scrapping/df_movie.csv')
-    recommend_result = recommend({}, matrix, 10, similar_genre=True)
-    pd.DataFrame(recommend_result, columns = ['Title', 'Correlation', 'Genre'])
+    Title=[]
+    Correlation=[]
+    Genre=[]
     result={}
     return render(request, 'projects.html', result)
 
@@ -20,7 +21,6 @@ def projects(request):
 
 def scrapping(request):
     result = {}
-
     return render(request, 'scrapping.html', context=result)
 
 def machine(request):
