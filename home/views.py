@@ -10,7 +10,7 @@ def green_home(request):
     return render(request, 'green_home.html', context=result)
 
 def projects(request):
-    df=pd.read_csv('machinelearning/saves/result.csv')
+    df=pd.read_csv('scrapping/df_movie.csv')
     recommend_result = recommend({}, matrix, 10, similar_genre=True)
     pd.DataFrame(recommend_result, columns = ['Title', 'Correlation', 'Genre'])
     result={}
@@ -19,10 +19,9 @@ def projects(request):
 # request.GET['first']
 
 def scrapping(request):
-    df = pd.read_csv('/scrapping/saves/pd_data.csv')
-    result = {df}
-    return render(request, 'scrapping.html', context=result)
+    result = {}
 
+    return render(request, 'scrapping.html', context=result)
 
 def machine(request):
     xArray = [0.46,0.39,0.38,0.35,0.32,0.31,0.29,0.29,0.28,0.27];
