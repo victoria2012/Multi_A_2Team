@@ -11,7 +11,8 @@ def green_home(request):
 
 def projects(request):
     df=pd.read_csv('machinelearning/saves/result.csv')
-    list_df = df.values.tolist()
+    recommend_result = recommend({}, matrix, 10, similar_genre=True)
+    pd.DataFrame(recommend_result, columns = ['Title', 'Correlation', 'Genre'])
     result={}
     return render(request, 'projects.html', result)
 
