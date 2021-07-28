@@ -19,8 +19,10 @@ def projects(request):
 # request.GET['first']
 
 def scrapping(request):
-    result = {}
+    df = pd.read_csv('/scrapping/saves/pd_data.csv')
+    result = {df}
     return render(request, 'scrapping.html', context=result)
+
 
 def machine(request):
     xArray = [0.46,0.39,0.38,0.35,0.32,0.31,0.29,0.29,0.28,0.27];
