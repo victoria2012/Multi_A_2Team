@@ -24,9 +24,7 @@
           <a href="#Matching movies" class="w3-bar-item w3-button">Matching movies</a>
           <a href="#Scrapping" class="w3-bar-item w3-button">Scrapping</a>
           <a href="#Machine-learning" class="w3-bar-item w3-button">Machine-learning</a>
-
           <a href="#Team" class="w3-bar-item w3-button">Team</a>
-          <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
         </div>
       </div>
     </div>
@@ -70,13 +68,12 @@
     <img class="mySlides" src="/static/img/2_b.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/3_c.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/4_d.jpg" style="width:100%">
-    <img class="mySlides" src="/static/img/5_e.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/6_f.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/7_g.jpg" style="width:100%">
     <img class="mySlides" src="/static/img/8_h.jpg" style="width:100%">
 
     <!--실시간 영화 다음 , 이전 버튼 , 페이지 연결-->
-    <div class="w3-center w3-left w3-display-middle w3-section w3-large w3-text-red " style="width:100%">
+    <div class="w3-center w3-left w3-display-middle w3-section w3-large w3-text-black " style="width:100%">
     <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
     <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
@@ -86,10 +83,10 @@
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
     <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(8)"></span>
+
     </div>
 
-      </div>
+    </div>
 
       <script>
       var slideIndex = 1;
@@ -129,7 +126,7 @@
       </div>
 
     <form class="w3-container" action="scrapping">
-        <p><button class="w3-btn w3-green">Scrapping</button></p>
+        <p><button class="w3-btn w3-green" style="width:100%">Scrapping</button></p>
     </form>
   </section>
 
@@ -140,7 +137,7 @@
           <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Machine-learning</h3>
       </div>
       <form class="w3-container" action="machine">
-      <p><button class="w3-btn w3-green">machine</button></p>
+      <p><button class="w3-btn w3-green" style="width:100%">machine</button></p>
       </form>
   </section>
 
@@ -210,34 +207,13 @@
     </div>
 
   <hr class="divider">
-  <!-- contact 코멘트 우리에게 보내게:db에 기록-->
-
-<!--  <section id="Contact" class="fullscreen" style="background: #fbfbfb; height:600px; padding-top:60px; text-align:center;">-->
-<!--    <div class="w3-container w3-padding-32" >-->
-<!--        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>-->
-<!--    </div>-->
-
-<!--    <div class="w3-container">-->
-<!--      <p>문의사항은 이쪽으로 보내주세요 </p>-->
-<!--    <form action="contact" target="_blank">-->
-<!--      {% csrf_token %}-->
-<!--      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name" style="text-align:center; margin: auto; width: 600px;">-->
-<!--      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email" style="text-align:center; margin: auto; width: 600px;">-->
-<!--      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject" style="text-align:center; margin: auto; width: 600px;">-->
-<!--      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment" style="text-align:center; margin: auto; width: 600px;">-->
-<!--      <button class="w3-button w3-section w3-green " type="submit" style="text-align:center; margin: auto; width: 600px;">-->
-<!--        <i class="fa fa-paper-plane"><a href="to-db"></a></i> SEND MESSAGE-->
-<!--      </button>-->
-<!--    </form>-->
-<!--    </div>-->
-<!--  </section>-->
-
 
   <!-- 맨 및에 -->
   <section class="fullscreen" style="background-color: rgb(51, 51, 51); color: rgb(238, 238, 238); text-align: center; margin-top: -40px; height: 100px;">
       <div class="container">
         <div class="content-resizer" style="margin-top: -40px; top: 306.5px;">
-        <a href="https://www.multicampus.com/" title="multi" target="_blank" class="w3-hover-text-green">
+            <p>문의</p>>
+            <a href="https://www.multicampus.com/" title="multi" target="_blank" class="w3-hover-text-green">
             <img src="/static/img/multi.jpg" style="color: inherit;padding:14px 22px;"></a>
         </div>
       </div>
