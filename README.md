@@ -2,7 +2,8 @@ Multi_A_2Team
 
 # 팀명 : Green 
 
-[![SC2 Video](https://img.youtube.com/vi/CkaXr9SAMak/0.jpg)](https://www.youtube.com/watch?v=CkaXr9SAMak)
+[![SC2 Video](https://img.youtube.com/vi/CCHcG4MVfe0/0.jpg)](https://www.youtube.com/watch?v=CCHcG4MVfe0)
+
 
 # 데이터를 활용한 영화추천서비스<br>
 편향된 알고리즘  추천이  아닌<br>
@@ -14,6 +15,9 @@ Multi_A_2Team
 
 # 업무분장<br>
 <a href="https://github.com/ginttone/Multi_A_2Team/tree/master/Team">팀소개 페이지로 연결</a>
+<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/scraping">스크레핑 소개 페이지로 연결</a>
+<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a>
+<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a>
 
 
 # 데이터 출처<br>
