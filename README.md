@@ -2,6 +2,8 @@ Multi_A_2Team
 
 # 팀명 : Green 
 
+[![SC2 Video](https://img.youtube.com/vi/CkaXr9SAMak/0.jpg)](https://www.youtube.com/watch?v=CkaXr9SAMak)
+
 # 데이터를 활용한 영화추천서비스<br>
 편향된 알고리즘  추천이  아닌<br>
 데이터 속에 갇혀 버린 <br>
