@@ -1,5 +1,7 @@
 # 팀소개 및 업무분장 페이지
 
+<a href="https://github.com/ginttone/Multi_A_2Team">메인 페이지로 이동</a>
+
 * 주창석 : Scrapping 담당 <br>
          더미 데이터 생성 완료 100%<br>
          1.네이버 리뷰데이터 스크레핑 진행 중 100% <br>
