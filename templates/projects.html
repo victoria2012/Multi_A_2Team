@@ -1,15 +1,135 @@
 <!DOCTYPE html>
-{% load static %}
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-<h1>추천연결</h1>
-{{Title | safe},
-{Correlation| safe},
-{Genre| safe}}
+
+  <div class="container">
+  <h2>추천페이지</h2>
+  <div class="table-responsive">
+
+  <table class ="table">
+    <thead>
+      <tr class>
+        <th>  </th>
+        <th>Title</th>
+        <th>Score</th>
+        <th>Code</th>
+        <th>Genre</th>
+        <th>Nation</th>
+        <th>Director</th>
+        <th>Actor</th>
+      </tr>
+    </thead>
+      <tr>
+        <td>1</td>
+        <td>이스케이프 룸 2: 노 웨이 아웃</td>
+        <td>0.46</td>
+        <td>191548</td>
+        <td>액션, 공포, 스릴러</td>
+        <td>미국</td>
+        <td></td>
+        <td>테일러 러셀, 로건 밀러</td>
+      </tr>
+     <tr>
+        <td>2</td>
+        <td>미드나이트</td>
+        <td>0.39</td>
+        <td>189120</td>
+        <td>스릴러</td>
+        <td>한국</td>
+        <td>권오승</td>
+        <td>진기주, 위하준, 박훈</td>
+      </tr>
+     <tr>
+        <td>3</td>
+        <td>명탐정 코난: 비색의 탄환</td>
+        <td>0.38</td>
+        <td>203097</td>
+        <td>애니메이션</td>
+        <td>일본</td>
+        <td>나가오카 치카</td>
+        <td>12세 관람가</td>
+      </tr>
+     <tr>
+        <td>4</td>
+        <td>꽃다발 같은 사랑을 했다</td>
+        <td>0.35</td>
+        <td>200896</td>
+        <td>멜로/로맨스</td>
+        <td>일본</td>
+        <td>도이 노부히로</td>
+        <td>아리무라 카스미, 스다 마사키, 키요하라 카야</td>
+      </tr>
+     <tr>
+        <td>5</td>
+        <td>라야와 마지막 드래곤</td>
+        <td>0.32</td>
+        <td>184518</td>
+        <td>애니메이션, 액션, 모험</td>
+        <td>미국</td>
+        <td>돈 홀, 까를로스 로페즈 에스트라다</td>
+        <td>켈리 마리 트란, 아콰피나, '산드라 오</td>
+      </tr>
+     <tr>
+        <td>6</td>
+        <td>보스 베이비2</td>
+        <td>0.31</td>
+        <td>191597</td>
+        <td>애니메이션, 코미디, 모험</td>
+        <td>미국</td>
+        <td>톰 맥그라스</td>
+        <td>알렉 볼드윈, 에이미 세다리스</td>
+      </tr>
+     <tr>
+        <td>7</td>
+        <td>루카</td>
+        <td>0.29</td>
+        <td>202903</td>
+        <td>애니메이션, 모험, 코미디</td>
+        <td>미국</td>
+        <td>엔리코 카사로사</td>
+        <td>제이콥 트렘블레이, 잭 딜런 그레이저, 엠마 버만</td>
+      </tr>
+     <tr>
+        <td>8</td>
+        <td>오필리아</td>
+        <td>0.29</td>
+        <td>168074</td>
+        <td>드라마, 멜로/로맨스</td>
+        <td>미국</td>
+        <td>클레어 맥카시</td>
+        <td>데이지 리들리, 조지 맥케이, 나오미 왓츠</td>
+      </tr>
+     <tr>
+        <td>9</td>
+        <td>컨저링 3: 악마가 시켰다</td>
+        <td>0.28</td>
+        <td>190726</td>
+        <td>공포, 미스터리, 스릴러</td>
+        <td>미국</td>
+        <td>마이클 차베즈</td>
+        <td>베라 파미가, 패트릭 윌슨, 줄리안 힐리아드</td>
+      </tr>
+     <tr>
+        <td>10</td>
+        <td>랑종</td>
+        <td>0.27</td>
+        <td>204496</td>
+        <td>공포, 스릴러, 드라마</td>
+        <td>한국, 태국</td>
+        <td>반종 피산다나쿤</td>
+        <td>나릴야 군몽콘켓, 싸와니 우툼마, 씨라니 얀키띠칸</td>
+      </tr>
+
+  </table>
+  </div>
+</div>
 
 </body>
 </html>

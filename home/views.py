@@ -1,5 +1,8 @@
 from django.shortcuts import render
 import pandas as pd
+import csv
+import sqlite3
+# from ssapp.models import Stock
 
 # Create your views here.
 
@@ -10,10 +13,6 @@ def green_home(request):
     return render(request, 'green_home.html', context=result)
 
 def projects(request):
-    df=pd.read_csv('scrapping/df_movie.csv')
-    Title=[]
-    Correlation=[]
-    Genre=[]
     result={}
     return render(request, 'projects.html', result)
 
@@ -30,3 +29,20 @@ def machine(request):
     result = {'x_array':xArray, 'y_array':yArray}
     return render(request, 'machine.html', context=result)
 
+
+    # df=pd.read_csv('scrapping/df_movie.csv')
+    # s = pd.DataFrame(df,columns=['Title','Correlation','Genre'] )
+    # ss = []
+    # for i in range(len(s)):
+    #     st = (s['Title'][i], s['Correlation'][i], s['Genre'][i])
+    #     ss.append(st)
+    # #     for i in range(len(s)):
+    # #         Stock.objects.create(Title=ss[i][0], Correlation=ss[i][1], Genre=ss[i][2])
+
+    # conn = sqlite3.connect('saves/movie.db')
+    # data.to_sql('test', conn)
+    # cursor = conn.cursor()
+    # cursor.execute("SELECT * FROM test")
+    # rows = cursor.fetchone()
+    # for row in rows:
+    #     print(row)
