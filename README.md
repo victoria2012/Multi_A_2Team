@@ -16,10 +16,10 @@ MuA_2Team
 
 
 # 업무분장<br>
-<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/Team">팀소개 페이지로 연결</a><br>
-<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/scraping">스크래핑 소개 페이지로 연결</a><br>
-<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a><br>
-<a href="https://github.com/ginttone/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a><br>
+<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/Team">팀소개 페이지로 연결</a><br>
+<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/scraping">스크래핑 소개 페이지로 연결</a><br>
+<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a><br>
+<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a><br>
 
 
 # 데이터 출처<br>
