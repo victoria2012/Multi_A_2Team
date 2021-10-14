@@ -24,7 +24,7 @@ MuA_2Team
 
 # 데이터 출처<br>
 [네이버 영화](https://movie.naver.com/) <br>
-[영화 랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)
+[영화 랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)  
 [평점 리뷰](https://movie.naver.com/movie/board/review/list.naver) 
 
 # 진행일정<br>
