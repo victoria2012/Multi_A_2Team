@@ -12,7 +12,7 @@ MuA_2Team
 데이터 속에 갇혀 버린 <br>
 보석 같은 영화를 발견하여<br>
 여러분에게 다양한 볼거리를 <br>
-제공해  드립니다.
+제공해  드립니다.  
 
 
 # 업무분장<br>
@@ -25,7 +25,7 @@ MuA_2Team
 # 데이터 출처<br>
 [네이버 영화](https://movie.naver.com/) <br>
 [영화 랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)  
-[평점 리뷰](https://movie.naver.com/movie/board/review/list.naver) 
+[평점 리뷰](https://movie.naver.com/movie/board/review/list.naver)   
 
 # 진행일정<br>
  `7/15~7/16`  : 주제선정- 팀명 선정- 역할분담- 환경 맞추기 <br>
