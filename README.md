@@ -1,12 +1,18 @@
-MuA_2Team
+## 빅데이터 기반 지능형 서비스 개발 과정 - 첫번째 세미 프로젝트
 
-# 팀명 : Green 
+
+
+### * 팀명 : GREEN
+
+---
 
 [![웹서비스 동영상](https://img.youtube.com/vi/MSZ958YtRvg/0.jpg)](https://www.youtube.com/watch?v=MSZ958YtRvg&t=4s)
 
 
 
-# 데이터를 활용한 영화추천서비스<br>
+### * 데이터를 활용한 영화추천서비스
+
+---
 
 편향된 알고리즘  추천이  아닌<br>
 데이터 속에 갇혀 버린 <br>
@@ -15,19 +21,34 @@ MuA_2Team
 제공해  드립니다.  
 
 
-# 업무분장<br>
+
+### * 업무분장
+
+---
+
 <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/Team">팀소개 페이지로 연결</a><br>
 <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/scraping">스크래핑 소개 페이지로 연결</a><br>
 <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a><br>
 <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a><br>
 
 
-# 데이터 출처<br>
+
+### * 데이터 출처
+
+---
+
 [네이버 영화](https://movie.naver.com/) <br>
 [영화 랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)  
 [평점 리뷰](https://movie.naver.com/movie/board/review/list.naver)   
 
-# 진행일정<br>
+
+
+### * 진행일정
+
+---
+
+
+
  `7/15~7/16`  : 주제선정- 팀명 선정- 역할분담- 환경 맞추기 <br>
  `7/16` : 사이트 수집 샘플링<br>
  `7/19` : Scraping- Dermy data (DBsqlite3) <br>
