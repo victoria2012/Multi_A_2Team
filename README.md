@@ -10,26 +10,30 @@
 
 
 
-### * 데이터를 활용한 영화추천서비스
+### * 프로젝트 주제 : 데이터를 활용한 영화추천서비스
 
 ---
 
+```
 편향된 알고리즘  추천이  아닌<br>
 데이터 속에 갇혀 버린 <br>
 보석 같은 영화를 발견하여<br>
 여러분에게 다양한 볼거리를 <br>
 제공해  드립니다.  
+```
+
+<br><br>
 
 
 
-### * 업무분장
+### * 깃허브 내 페이지 링크
 
 ---
 
-<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/Team">팀소개 페이지로 연결</a><br>
-<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/scraping">스크래핑 소개 페이지로 연결</a><br>
-<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a><br>
-<a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a><br>
+* <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/Team">팀소개 페이지로 연결</a><br>
+*  <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/scraping">스크래핑 소개 페이지로 연결</a><br>
+* <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a><br>
+* <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a><br>
 
 
 
@@ -37,11 +41,12 @@
 
 ---
 
-[네이버 영화](https://movie.naver.com/) <br>
-[영화 랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)  
-[평점 리뷰](https://movie.naver.com/movie/board/review/list.naver)   
+* [네이버 영화 > 영화랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)<br>
+* [네이버 영화 > 평점 리뷰](https://movie.naver.com/movie/board/review/list.naver) <br>
 
+* 데이터량 : 약 60만 건
 
+<br><br>
 
 ### * 진행일정
 
