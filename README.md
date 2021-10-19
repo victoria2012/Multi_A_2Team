@@ -8,7 +8,7 @@
 
 [![웹서비스 동영상](https://img.youtube.com/vi/MSZ958YtRvg/0.jpg)](https://www.youtube.com/watch?v=MSZ958YtRvg&t=4s)
 
-
+<br>
 
 ### * 프로젝트 주제 : 데이터를 활용한 영화추천서비스
 
@@ -35,14 +35,12 @@
 
 <br><br>
 
-<br>
-
 ### * 데이터 출처
 
 ---
 
-* [네이버 영화 > 영화랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)<br>
-* [네이버 영화 > 평점 리뷰](https://movie.naver.com/movie/board/review/list.naver) <br>
+* [네이버 영화 > 영화랭킹](https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=pnt&tg=0&date=20210720)
+* [네이버 영화 > 평점 리뷰](https://movie.naver.com/movie/board/review/list.naver) 
 
 * 데이터량 : 약 60만 건
 
