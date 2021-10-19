@@ -33,7 +33,7 @@
 * <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/machinelearning">머신러닝 소개 페이지로 연결</a><br>
 * <a href="https://github.com/victoria2012/Multi_A_2Team/tree/master/templates">웹서버 소개 페이지로 연결</a><br>
 
-<br><br>
+<br>
 
 ### * 데이터 출처
 
@@ -44,7 +44,7 @@
 
 * 데이터량 : 약 60만 건
 
-<br><br>
+<br>
 
 ### * 진행일정
 
